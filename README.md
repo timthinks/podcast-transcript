@@ -1,1 +1,6 @@
 # podcast-transcript
+Use your own Claude API key to format with punctuation and paragraphs a .txt file of a podcast transcript and then convert it to both a combined .txt file and an epub for easy reading. To get the original transcript, you can either (1) use the Apple Podcast transcription via highlighting all of it, right-clicking > services > open or (2) use Whisper via a free app like [Aiko](https://apps.apple.com/us/app/aiko/id1672085276) or MacWhisper. Very basic instructions:
+1. make sure python is installed, if its is not, then install it
+2. Download the script (thanks claude 3.5 for helping me) [located on my github](https://github.com/timthinks/podcast-transcript/blob/main/podcast-transcript-needAPIkey.py). Download it and make sure to add your own claude API key at [insert API key] in the beginning.
+3. in your terminal, navigate to the directory where the script is located, put the .txt file of the transcript there (named something like podcast.txt), make an output folder, and then run the script. Make sure you first have the dependencies installed. On my mac the command to run the script is `python3 podcast-transcript.py [input_file] [output_directory]` 
+If you need help with the above like I did asking an AI is your best bet!
